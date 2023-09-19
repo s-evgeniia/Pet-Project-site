@@ -1,0 +1,117 @@
+body {
+    font-family:'Montserrat', sans-serif;
+    font-size: 34px;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    width: 100%;
+    background-color: #7A55C8;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 48px;
+}
+
+.basket {
+    background-color: white;
+    border-radius: 20%;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 66%;
+}
+
+main {
+    margin: 73px;
+}
+
+.gallery {
+    display: flex;
+    width: 730px;
+    flex-wrap: wrap;
+    gap: 30px
+}
+
+.gallery img {
+    border: 0 solid #7A55C8;
+    border-radius: 20px;
+}
+
+.description {
+    padding-top: 40px;
+    width: 730px;
+    text-align: justify;
+}
+
+section {
+    display: flex;
+    gap: 40px;
+}
+
+.add_to_basket {
+    border: 4px dashed #7A55C8;
+    border-radius: 30px;
+    width: 500px;
+    height: 350px;
+}
+
+.price {
+    color: #7A55C8;
+    font-weight: bold;
+    font-size: 52px;
+    margin: 30px 40px;
+}
+
+.add-to {
+    width: 420px;
+    height: 70px;
+    background-color: #7A55C8;
+    color: white;
+    font-size: 36px;
+    border-radius: 30px;
+    margin: 30px 40px;
+}
+
+.count {
+    display: flex;
+    gap: 10px;
+    height: 80px;
+    margin: 0 40px;
+}
+
+.count button {
+    width: 80px;
+    font-size: 50px;
+    background-color: rgba(79, 133, 219, 0.4);
+    border-radius: 12px;
+    color: rgba(79, 133, 219, 0.85);
+}
+
+.count form {
+    border: 1px solid #4F85DB;
+    border-radius: 12px;
+    font-size: 50px;
+    padding: 0 35px;
+    color: rgba(79, 133, 219, 0.85);
+}
+
+footer {
+    background-color: #7A55C8;
+}
+
+footer div {
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
